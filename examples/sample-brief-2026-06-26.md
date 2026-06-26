@@ -4,20 +4,17 @@ This is a structural sample, not a live-researched final brief.
 
 ## Hero
 
-**Lingyun AI Morning Brief - Builders Are Moving From Demos To Workflows**
+**🧠 Lingyun AI Morning Brief — 2026-06-26**
 
 Today's signal: AI product launches are becoming less about model access and more about practical workflow ownership.
 
-## Market Note
-
-AI teams are competing on distribution, reliability, and developer experience. The useful question for builders is no longer only "which model is best?" but "which workflow can I own end to end?"
-
 ## 1. Executive Summary
 
-- Model providers continue to push deeper into agentic workflows.
-- Builder demos are increasingly focused on shipping usable tools, not just impressive clips.
-- Open-source AI infrastructure remains active around evals, observability, and app scaffolding.
-- AI Engineer roles continue to reward practical product implementation, data fluency, and systems thinking.
+Model providers and independent builders are both moving from impressive AI demos toward repeatable workflows with clearer interfaces, evaluations, and delivery paths. The strongest industry signal today is that applied AI work is becoming less about simply calling a capable model and more about designing systems that can be trusted, inspected, and improved. That matters for AI Engineer and Applied AI Engineer roles because employers increasingly need people who can connect model behaviour to product requirements, data flows, user outcomes, and operational checks. For Lingyun, the practical takeaway is to frame portfolio projects around reliable workflow ownership: define the input contract, output schema, verification checks, and user-facing value before polishing the interface.
+
+## Market Note
+
+GBP → AUD: sample rate. GBP → CNY: sample rate. As of: sample timestamp if available. Indicative only.
 
 ## 2. Top AI News
 
@@ -61,9 +58,26 @@ Example structure:
 
 ## 8. Opportunities for Lingyun
 
-- Convert one repeated research task into a small AI workflow with logging and verification.
-- Study one open-source agent or eval repository and write a short implementation note.
-- Turn today's builder pattern into a LinkedIn post about practical AI engineering.
+### Feature to build
+
+- Signal observed today: Builders are packaging AI demos as repeatable workflows.
+- Opportunity: Add a verification layer to one portfolio automation.
+- Suggested action: Define input, output, and pass/fail checks.
+- Why it helps the job transition: Shows applied AI engineering judgement beyond prompting.
+
+### Improvement to an existing project
+
+- Signal observed today: Reliability and traceability are becoming visible differentiators.
+- Opportunity: Add source logging and final output validation to an existing repo.
+- Suggested action: Store source URLs and validation results beside generated output.
+- Why it helps the job transition: Demonstrates production-minded AI workflow design.
+
+### Portfolio/GitHub/LinkedIn idea
+
+- Signal observed today: Practical AI build notes are easier to trust than broad hot takes.
+- Opportunity: Publish a short post about turning an AI demo into a verified workflow.
+- Suggested action: Share one before/after example from a real project.
+- Why it helps the job transition: Connects engineering experience to AI Engineer positioning.
 
 ## 9. Content Ideas
 

@@ -16,13 +16,18 @@ Must include:
 
 ## Market Note Module
 
-Purpose: summarise the most important market, platform, product, or builder shift since the previous brief.
+Purpose: provide quick exchange-rate context for Lingyun.
+
+Placement: small card immediately after the Executive Summary.
 
 Must include:
 
-- Short "what changed overnight" note
-- 2-4 evidence-backed signals
-- Why the signal matters to AI builders, AI engineers, or AI job seekers
+- GBP → AUD exchange rate
+- GBP → CNY exchange rate
+- As-of time if available
+- The phrase "Indicative only"
+
+Do not replace this with a generic market/product note.
 
 ## 1. Executive Summary
 
@@ -30,7 +35,10 @@ Purpose: give Lingyun the day in one scan.
 
 Format:
 
-- 4-6 bullets
+- Gmail version should be 120-180 words
+- Include today's strongest AI industry signal
+- Explain why it matters for AI Engineer / Applied AI Engineer roles
+- Include one practical takeaway for Lingyun
 - Focus on decisions, launches, technical shifts, builder trends, and job-market signals
 - Avoid generic commentary
 
@@ -133,13 +141,18 @@ Must include at least one job-market, company, hiring, funding, or labour-market
 
 Purpose: translate the day into selective practical opportunities.
 
-Examples:
+Must include exactly 3 visual cards:
 
-- Portfolio feature to build
-- Repository to study
-- Job-search angle
-- Networking opportunity
-- Skill to practise
+1. Feature to build
+2. Improvement to an existing project
+3. Portfolio/GitHub/LinkedIn idea
+
+Each card must include:
+
+- Signal observed today
+- Opportunity
+- Suggested action
+- Why it helps the job transition
 
 Do not force every news item into a personal action.
 

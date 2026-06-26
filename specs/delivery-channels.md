@@ -10,8 +10,11 @@ Requirements:
 
 - Complete HTML email
 - `html_body` or `content_type='text/html'`
+- Short plain text fallback in `body`
+- Never send raw HTML through a normal Markdown body
 - Mobile-friendly layout
-- Hero and Market Note modules
+- Hero module
+- Market Note card immediately after Executive Summary
 - All 10 sections
 - Source links
 - Separate LinkedIn and X content cards

@@ -49,7 +49,7 @@ The future implementation plan lives in [`future-agent/implementation-roadmap.md
 9. Content Ideas
 10. Today's 1-Hour Action
 
-The Hero and Market Note modules sit above the numbered sections.
+The Hero module sits above the numbered sections. The Market Note is a small exchange-rate card immediately after the Executive Summary.
 
 ## Repository Structure
 

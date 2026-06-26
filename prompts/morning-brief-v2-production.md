@@ -69,7 +69,13 @@ Do not rely on a single publication, platform, or social feed.
 
 ## Exact Content Structure
 
-The Gmail and Notion versions must include the Hero and Market Note modules, then exactly these 10 numbered sections, each appearing once:
+Use exactly this title, subject, and page title format:
+
+**🧠 Lingyun AI Morning Brief — YYYY-MM-DD**
+
+Do not add suffixes unless explicitly requested for a test resend.
+
+The Gmail and Notion versions must include the Hero module, exactly these 10 numbered sections, and a small Market Note card immediately after the Executive Summary. Each numbered section must appear once.
 
 ### Hero Module
 
@@ -81,17 +87,30 @@ Include:
 - 1 visual placeholder or relevant image slot
 - Clear positioning as Lingyun's AI Morning Brief
 
-### Market Note Module
-
-Include:
-
-- A short "what changed overnight" market/product note
-- 2-4 signals from research
-- Why the signal matters to AI builders or job seekers
-
 ### 1. Executive Summary
 
-Summarise the day in 4-6 bullets. Prioritise decisions, launches, technical shifts, builder trends, and job-market signals.
+For the Gmail version, write this as a 120-180 word editorial summary.
+
+It must include:
+
+- Today's strongest AI industry signal
+- Why that signal matters for AI Engineer / Applied AI Engineer roles
+- One practical takeaway for Lingyun
+
+Prioritise decisions, launches, technical shifts, builder trends, and job-market signals. Keep it concise and specific.
+
+### Market Note Module
+
+Place this as a small card immediately after the Executive Summary.
+
+It must include:
+
+- GBP → AUD exchange rate
+- GBP → CNY exchange rate
+- As-of time if available
+- The phrase "Indicative only"
+
+Do not replace this with a generic market/product note. The Market Note is for exchange-rate context, not AI industry commentary.
 
 ### 2. Top AI News
 
@@ -170,13 +189,18 @@ Include at least one source from a company page, job post, funding announcement,
 
 ### 8. Opportunities for Lingyun
 
-Include 3-5 practical opportunities for Lingyun, grounded in the day's research where possible:
+Include exactly 3 visual cards:
 
-- Portfolio feature to build
-- GitHub repo to study
-- Job-search angle
-- Networking opportunity
-- Skill to practise
+1. Feature to build
+2. Improvement to an existing project
+3. Portfolio/GitHub/LinkedIn idea
+
+Each card must include:
+
+- Signal observed today
+- Opportunity
+- Suggested action
+- Why it helps the job transition
 
 Do not over-personalise every news item. Keep this section useful and selective.
 
@@ -205,6 +229,8 @@ Give one concrete 1-hour action with:
 
 Render the Gmail version as complete HTML suitable for sending with `html_body` or `content_type='text/html'`.
 
+Gmail MUST be sent using `html_body` or `content_type='text/html'`. Never send raw HTML through a normal Markdown body. Include a short plain text fallback in `body`.
+
 Requirements:
 
 - Inline CSS only
@@ -231,7 +257,7 @@ Create or update a Notion entry for today's brief if Notion is available.
 The Notion version should include:
 
 - Date
-- Title
+- Title using exactly `🧠 Lingyun AI Morning Brief — YYYY-MM-DD`
 - Executive Summary
 - All 10 sections
 - Source links
@@ -256,18 +282,25 @@ If Slack delivery fails, report it in final status.
 
 ## Mandatory Pre-Send Verification Checklist
 
-Before Gmail delivery, verify:
+Before Gmail, Notion, and Slack delivery, verify:
 
 - Gmail uses `html_body` or `content_type='text/html'`.
+- Raw HTML is never sent through a normal Markdown body.
+- A short plain text fallback exists in `body`.
 - HTML contains no Markdown syntax.
+- Title, email subject, and Notion page title use exactly `🧠 Lingyun AI Morning Brief — YYYY-MM-DD`.
 - Hero exists.
 - Dynamic daily headline exists.
 - Executive Summary exists.
-- Market Note exists.
+- Gmail Executive Summary is 120-180 words and includes today's strongest AI industry signal, why it matters for AI Engineer / Applied AI Engineer roles, and one practical takeaway for Lingyun.
+- Market Note exists as a small card after Executive Summary.
+- Market Note includes GBP → AUD, GBP → CNY, as-of time if available, and "Indicative only".
 - Sections 1-10 exist exactly once.
 - LinkedIn and X ideas are separate cards.
 - Builder Spotlight contains external builders/products.
 - Section 4 contains exactly 5 real published projects with original source links.
+- Opportunities for Lingyun contains exactly 3 visual cards: Feature to build, Improvement to an existing project, and Portfolio/GitHub/LinkedIn idea.
+- Each Opportunities card includes signal observed today, opportunity, suggested action, and why it helps the job transition.
 - At least 2 authoritative AI/news sources are present.
 - At least 2 builder/product sources are present.
 - At least 2 GitHub/open-source sources are present.

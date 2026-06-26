@@ -11,6 +11,9 @@ The Gmail version is the main user-facing output. It should read like a polished
 - Rounded cards
 - Source buttons or clear links
 - Separate LinkedIn and X cards
+- Hero H1 around 32px
+- Section h2 headings around 24-26px
+- Card headings around 18-19px
 
 ## CSS
 
@@ -24,10 +27,16 @@ The Gmail version is the main user-facing output. It should read like a polished
 
 - Preheader
 - Hero
-- Market Note
 - Sections 1-10
+- Market Note as a small card immediately after Executive Summary
 - Sources
 - Footer/status note
+
+## Gmail Sending
+
+- Send using `html_body` or `content_type='text/html'`.
+- Never send raw HTML through a normal Markdown body.
+- Include a short plain text fallback in `body`.
 
 ## Visual Elements
 
